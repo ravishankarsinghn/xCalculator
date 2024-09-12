@@ -1,0 +1,19 @@
+*,*::after,*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /*1 rem = 10px;*/
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
